@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cbc398;
+}
+
+.box {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.box .title h1{
+    font-size: 350%;
+    color: #cbc398;
+    font-family: 'Prompt', sans-serif;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    max-width: 300px;
+    margin-right: 30px;
+    border-radius: 10%;
+}
+
+.information {
+    line-height: 1.5;
+}
+
+.Status {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Status div {
+    width: calc(100% / 6);
+    text-align: center;
+}
